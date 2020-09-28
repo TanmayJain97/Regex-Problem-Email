@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class EmailUC2 {
+public class RegexEmail {
 
 	public static void main(String[] args) {
 		
