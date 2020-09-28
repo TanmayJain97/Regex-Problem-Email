@@ -4,13 +4,13 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class EmailUC2 {
+public class RegexEmail {
 
 	public static void main(String[] args) {
 		
 		Scanner sc=new Scanner(System.in);
 		
-		String match = "^(abc)+[ -~]*@bridgelabz+[ -~]*$";			//String pattern to be detected
+		String match = "^(abc)+[ -~]*@bridgelabz\\.co+[ -~]*$";			//String pattern to be detected
 
 		//Checking for matches
 		while(true) {
