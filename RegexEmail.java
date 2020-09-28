@@ -10,7 +10,7 @@ public class RegexEmail {
 		
 		Scanner sc=new Scanner(System.in);
 		
-		String match = "^(abc)+[ -~]*@bridgelabz\\.co+[ -~]*$";			//String pattern to be detected
+		String match = "^(abc)+[a-z_+-.]*@bridgelabz\\.co+[ -~]*$";			//String pattern to be detected
 
 		//Checking for matches
 		while(true) {
